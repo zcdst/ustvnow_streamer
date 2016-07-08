@@ -5,7 +5,8 @@ import time, datetime
 from time import time
 from datetime import datetime, timedelta
 
-
+user = ""
+password = ""
 mBASE_URL = 'http://m-api.ustvnow.com'
 mcBASE_URL = 'http://mc.ustvnow.com'
 live_stream_option = '1'
