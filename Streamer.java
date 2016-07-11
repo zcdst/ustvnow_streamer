@@ -75,7 +75,7 @@ public class Streamer {
 
 
 		static private void updateChannels() throws Exception {
-			Process p = Runtime.getRuntime().exec("python ustvnow-mod.py");
+			Process p = Runtime.getRuntime().exec("python ustvnow.py");
 			p.waitFor();
 		}
 
